@@ -1,0 +1,10 @@
+.vs/
+x64/
+x32/
+!*.cpp
+*.sln
+*.vcxproj
+*.filters
+*.vcxproj.filters
+*.vcxproj.user
+*.user
