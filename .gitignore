@@ -1,6 +1,8 @@
 .vs/
 x64/
 x32/
+out/
+CMakePresets.json
 !*.cpp
 *.sln
 *.vcxproj
