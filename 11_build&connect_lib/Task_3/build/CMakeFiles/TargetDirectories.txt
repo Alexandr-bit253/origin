@@ -1,0 +1,4 @@
+F:/cpp_projects/origin/11_build&connect_lib/Task_3/build/CMakeFiles/leaver.dir
+F:/cpp_projects/origin/11_build&connect_lib/Task_3/build/CMakeFiles/main.dir
+F:/cpp_projects/origin/11_build&connect_lib/Task_3/build/CMakeFiles/ALL_BUILD.dir
+F:/cpp_projects/origin/11_build&connect_lib/Task_3/build/CMakeFiles/ZERO_CHECK.dir
