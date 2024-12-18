@@ -4,8 +4,6 @@ x32/
 out/
 CMakePresets.json
 !*.cpp
-*.sln
-*.vcxproj
 *.filters
 *.vcxproj.filters
 *.vcxproj.user
