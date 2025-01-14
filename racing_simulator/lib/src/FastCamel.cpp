@@ -1,10 +1,4 @@
 #include "FastCamel.h"
 
 
-FastCamel::FastCamel(std::string name, double speed) : GroundVehicle(name, speed) {}
-
-
-double FastCamel::calculateRaceTime(double distance) const {
-	double result = 0.0;
-	return result;
-}
+FastCamel::FastCamel() : GroundVehicle("Верблюд-быстроход", 40, 10, { 5, 6.5, 8 }) {}

@@ -5,7 +5,5 @@
 
 class MagicCarpet : public AirVehicle {
 public:
-	MagicCarpet(std::string name, double speed);
-
-	double calculateRaceTime(double distance) const;
+	MagicCarpet();
 };

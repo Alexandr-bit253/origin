@@ -92,25 +92,25 @@ void vehicleRegistration(std::shared_ptr<Race> race) {
         switch (choice)
         {
         case(1):
-            vehicle = std::make_shared<SkorokhodyBoots>("Ботинки-вездеходы", 6.0);
+            vehicle = std::make_shared<SkorokhodyBoots>();
             break;
         case(2):
-            vehicle = std::make_shared<Broomstick>("Метла", 20.0);
+            vehicle = std::make_shared<Broomstick>();
             break;
         case(3):
-            vehicle = std::make_shared<Camel>("Верблюд", 10.0);
+            vehicle = std::make_shared<Camel>();
             break;
         case(4):
-            vehicle = std::make_shared<Centaur>("Кентавр", 15.0);
+            vehicle = std::make_shared<Centaur>();
             break;
         case(5):
-            vehicle = std::make_shared<Eagle>("Орёл", 8.0);
+            vehicle = std::make_shared<Eagle>();
             break;
         case(6):
-            vehicle = std::make_shared<FastCamel>("Верблюд-быстроход", 40.0);
+            vehicle = std::make_shared<FastCamel>();
             break;
         case(7):
-            vehicle = std::make_shared<MagicCarpet>("Ковёр-самолет", 10.0);
+            vehicle = std::make_shared<MagicCarpet>();
             break;
         default:
             break;
