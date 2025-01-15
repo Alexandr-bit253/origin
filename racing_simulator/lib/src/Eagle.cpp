@@ -1,4 +1,4 @@
 #include "Eagle.h"
 
 
-Eagle::Eagle() : AirVehicle("Îð¸ë", 8, {1, 2}) {}
+Eagle::Eagle() : AirVehicle("Îð¸ë", 8) {}

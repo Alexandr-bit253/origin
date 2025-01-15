@@ -28,7 +28,9 @@ public:
 
 	std::vector<std::shared_ptr<Vehicle>>& getRegisteredVehicles();
 
-	void startRace();
+	const std::vector<std::pair<std::string, double>>& startRace();
+
+	void clearParticipants();
 
 	virtual bool registerVehicle(std::shared_ptr<Vehicle> vehicle) = 0;
 

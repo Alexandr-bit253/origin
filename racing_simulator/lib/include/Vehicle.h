@@ -10,13 +10,13 @@ private:
 	VehicleType typeVehicle;
 
 public:
-	Vehicle(VehicleType type);
+	Vehicle();
 
 	~Vehicle() = default;
 
 	virtual std::string getName() = 0;
 
-	VehicleType getTypeVehicle();
+	virtual VehicleType getTypeVehicle() = 0;
 
 	virtual double calculateRaceTime(double distance) const = 0;
 };

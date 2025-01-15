@@ -9,13 +9,14 @@ class AirVehicle : public Vehicle {
 private:
 	std::string name{};
 	double speed{};
-	std::vector<double> restDuration{};
 	VehicleType typeVehicle{ AIR_VEHICLE };
 
 public:
-	AirVehicle(std::string name, double speed, std::vector<double> restDuration);
+	AirVehicle(std::string name, double speed);
 
 	std::string getName() override;
+
+	VehicleType getTypeVehicle() override;
 
 	double calculateRaceTime(double distance) const override;
 };

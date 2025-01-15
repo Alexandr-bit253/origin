@@ -18,5 +18,7 @@ public:
 
 	std::string getName() override;
 
+	VehicleType getTypeVehicle() override;
+
 	double calculateRaceTime(double distance) const override;
 };

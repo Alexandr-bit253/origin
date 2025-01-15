@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 #include "Race.h"
 
@@ -38,9 +39,23 @@ bool Race::isAlreadyRegistered(std::shared_ptr<Vehicle> vehicle) {
 }
 
 
-void Race::startRace() {
+const std::vector<std::pair<std::string, double>>& Race::startRace() {
+	results.clear();
+
 	for (const auto& vehicle : participants) {
 		double raceTime = vehicle->calculateRaceTime(distance);
 		results.emplace_back(vehicle->getName(), raceTime);
 	}
+
+	std::sort(results.begin(), results.end(),
+		[](const std::pair<std::string, double>& a, const std::pair<std::string, double>& b) {
+			return a.second < b.second;
+		});
+
+	return results;
+}
+
+
+void Race::clearParticipants() {
+	participants.clear();
 }

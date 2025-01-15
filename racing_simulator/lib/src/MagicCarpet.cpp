@@ -1,4 +1,4 @@
 #include "MagicCarpet.h"
 
 
-MagicCarpet::MagicCarpet() : AirVehicle("Ковёр-самолёт", 10, {1, 2}) {}
+MagicCarpet::MagicCarpet() : AirVehicle("Ковёр-самолёт", 10) {}
